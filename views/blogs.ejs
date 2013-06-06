@@ -1,0 +1,297 @@
+
+
+  
+          <div class="box">
+            <h3>博客专栏推荐</h3>
+            <ol>       
+              <% blogs.forEach(function(blogs, index) { %>
+                <li class="rank">
+                  <div class="rank_info">
+                    <a href="http://www.iteye.com/blogs/subjects/kaitao-springmvc"
+                      style="display: block; line-height: 18px; height: 36px; overflow: hidden;"
+                      target="_blank"><%= blogs.blogtheme%></a> <span><%= blogs.blogreadnum%>次</span>
+                  </div>
+                  <div class="rank_logo">
+                    <div class="logo">
+                      <a href="http://www.iteye.com/blogs/subjects/kaitao-springmvc"
+                        target="_blank"><img
+                        alt="3a7f0290-47e6-3d62-8845-49735bc19a96"
+                        src="./CSS热门博客列表 - Web前端 ITeye博客频道 - ITeye.com_files/3a7f0290-47e6-3d62-8845-49735bc19a96.jpg"></a>
+                    </div>
+                  </div>
+                </li>
+              <% }) %>
+            </ol>
+          </div>
+          <div class="box">
+            <h3>本月博客排行</h3>
+            <ol>
+              <% blogs.forEach(function(blogs, index) { %>
+
+                <li><a href="http://wlh0706-163-com.iteye.com/"
+                  target="_blank" title=<%=blogs.username%> ><%=blogs.username%></a></li>
+              <% }) %>
+            </ol>
+          </div>
+
+          <div class="box">
+            <h3>年度博客排行</h3>
+            <ol>
+              <% blogs.forEach(function(blogs, index) { %>
+                <li><a href="http://wlh0706-163-com.iteye.com/"
+                  target="_blank" title=<%=blogs.username%> ><%=blogs.username%></a></li>
+              <% }) %>
+            </ol>
+          </div>
+
+        </div>
+
+        <div id="index_main">
+
+          <div class="category_crumbs crumbs">
+            <a href="http://www.iteye.com/blogs">博客首页</a> <span class="arrow">→</span>
+            <a
+              href="./CSS热门博客列表 - Web前端 ITeye博客频道 - ITeye.com_files/CSS热门博客列表 - Web前端 ITeye博客频道 - ITeye.com.htm">CSS</a>
+          </div>
+
+          <div>
+            <h3 class="title_1">近期推荐文章</h3>
+          </div>
+          <% blogs.forEach(function(blogs, index) { %>
+            <div class="blog clearfix" id="">
+              <div class="content">
+                <h3>
+                  <a href=<%= blogs.bloglink %> title=<%= blogs.blogtheme %> target="_blank"><%= blogs.blogtheme %></a>
+                </h3>
+                <div>
+                  <div class="logo">
+                    <a href="http://tyygming.iteye.com/" target="_blank"><img alt="tyygming的博客" class="logo" src="./CSS热门博客列表 - Web前端 ITeye博客频道 - ITeye.com_files/f6123e77-a387-345c-bda7-be8a79d11da0-thumb.jpg" title="tyygming的博客: "></a>
+                  </div>
+
+                  日期：2013-5-6&nbsp;&nbsp;来源：GBin1.com
+
+                  <%= blogs.blogcontent %>
+                </div>
+                <div class="blog_info">
+                  <div class="digg" id="d1860697">
+                    <div class="digged">
+                      <span class="digg"><%= blogs.blogup %>顶</span><span class="bury"><%= blogs.blogdown %>踩</span>
+                    </div>
+                  </div>
+                  <a href="http://tyygming.iteye.com/" target="_blank"
+                    title="tyygming"><%= blogs.username %></a> <span class="comment"><a
+                    href="http://tyygming.iteye.com/blog/1860697#comments"
+                    target="_blank">评论(<%= blogs.blogreturnnum %>)</a></span> <span class="view">有<%= blogs.blogreadnum %>人浏览</span> <span
+                    class="date"><%= blogs.blogtime %></span>
+                </div>
+              </div>
+            </div>
+          <% }) %>
+
+        <div class="pagination">
+            <span class="disabled prev_page">« 上一页</span> <span
+              class="current">1</span> <a
+              href="http://www.iteye.com/blogs/tag/CSS?page=2" rel="next">2</a>
+            <a href="http://www.iteye.com/blogs/tag/CSS?page=3">3</a> <span
+              class="gap">…</span> <a
+              href="http://www.iteye.com/blogs/tag/CSS?page=1105">1105</a> <a
+              href="http://www.iteye.com/blogs/tag/CSS?page=1106">1106</a> <a
+              href="http://www.iteye.com/blogs/tag/CSS?page=2"
+              class="next_page" rel="next">下一页 »</a>
+          </div>
+
+        </div>
+
+
+      </div>
+      <div id="local">
+
+        <div>
+          <form action="http://www.iteye.com/search" method="get"
+            id="search_form">
+            <input type="hidden" name="type" value="blog"> <input
+              type="text" name="query" class="text" style="width: 130px">
+            <input type="submit" value="搜索博客" class="submit"
+              style="width: 70px">
+          </form>
+        </div>
+
+
+        <div class="hot_tag">
+          <h3>最近博客热门TAG</h3>
+          <p>
+
+            <span><a href="http://www.iteye.com/blogs/tag/HTML">HTML</a>(57535)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/Web">Web</a>(52603)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/JavaScript">JavaScript</a>(49420)</span>
+            <span><a
+              href="./CSS热门博客列表 - Web前端 ITeye博客频道 - ITeye.com_files/CSS热门博客列表 - Web前端 ITeye博客频道 - ITeye.com.htm">CSS</a>(22115)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/Ajax">Ajax</a>(18118)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/Flash">Flash</a>(17843)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/jQuery">jQuery</a>(16028)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/Flex">Flex</a>(13870)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/EXT">EXT</a>(13853)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/UI">UI</a>(10016)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/json">json</a>(8955)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/prototype">prototype</a>(7812)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/Adobe">Adobe</a>(5800)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/XHTML">XHTML</a>(5364)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/DWR">DWR</a>(3357)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/AIR">AIR</a>(2579)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/HTML5">HTML5</a>(1889)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/fckeditor">fckeditor</a>(1552)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/Dojo">Dojo</a>(1452)</span>
+            <span><a href="http://www.iteye.com/blogs/tag/GWT">GWT</a>(1357)</span>
+
+          </p>
+        </div>
+
+        <div class="box">
+          <h3 style="text-align: center">博客人气排行榜</h3>
+          <ul class="blogs_tab">
+            <li class="tab selected" id="blog_hot_tab_week"><a href="#"
+              onclick="show_hot_blog(&#39;week&#39;);return false;">周榜</a></li>
+            <li class="tab" id="blog_hot_tab_month"><a href="http://www.iteye.com/blogs/tag/CSS#"
+              onclick="show_hot_blog(&#39;month&#39;);return false;">月榜</a></li>
+            <li class="tab" id="blog_hot_tab_all"><a href="http://www.iteye.com/blogs/tag/CSS#"
+              onclick="show_hot_blog(&#39;all&#39;);return false;">总榜</a></li>
+          </ul>
+          <ul id="blog_hot_week" class="hot_blogs">
+            <% blogs.forEach(function(blogs, index) { %>
+              <li><span title="浏览次数"><%= blogs.blogreadnum%></span> <a
+                href="http://pdodge.iteye.com/blog/1866855"
+                title=<%= blogs.blogtheme%> target="_blank"><%= blogs.blogtheme%></a>
+              </li>
+            <% }) %>
+          </ul>
+          <ul id="blog_hot_month" class="hot_blogs" style="display: none;">
+
+          </ul>
+          <ul id="blog_hot_all" class="hot_blogs" style="display: none;">
+
+          </ul>
+        </div>
+
+        <script type="text/javascript">
+          function show_hot_blog(type) {
+            ["week", "month", "all"].each(function(t){
+              $('blog_hot_' + t).hide();
+              $('blog_hot_tab_' + t).removeClassName("selected");
+            });
+            $('blog_hot_' + type).show();
+            $('blog_hot_tab_' + type).addClassName("selected");
+          }
+        </script>
+
+        <div class="box">
+          <h3 style="text-align: center">博客电子书下载排行</h3>
+          <ul class="blogs_tab">
+            <li class="tab selected" id="pdf_hot_tab_month"><a
+              href="http://www.iteye.com/blogs/tag/CSS#"
+              onclick="show_hot(&#39;month&#39;);return false;">月榜</a></li>
+            <li class="tab" id="pdf_hot_tab_all"><a
+              href="http://www.iteye.com/blogs/tag/CSS#"
+              onclick="show_hot(&#39;all&#39;);return false;">总榜</a></li>
+          </ul>
+          <ul id="pdf_hot_month" class="hot_blogs">
+            <li><span title="下载次数">5</span> <a
+              href="http://www.iteye.com/blogs/pdfs/11381?channel_home=true"
+              title="访问电子书所在频道位置">Spring_g的博客文章-Ajax相关</a></li>
+          </ul>
+          <ul id="pdf_hot_all" class="hot_blogs" style="display: none;">
+            <li><span title="下载次数">231</span> <a
+              href="http://www.iteye.com/blogs/pdfs/9879?channel_home=true"
+              title="访问电子书所在频道位置">JavaScript 读书笔记</a></li>
+            <li><span title="下载次数">85</span> <a
+              href="http://www.iteye.com/blogs/pdfs/10327?channel_home=true"
+              title="访问电子书所在频道位置">JavaScript 学习笔记</a></li>
+            <li><span title="下载次数">81</span> <a
+              href="http://www.iteye.com/blogs/pdfs/10601?channel_home=true"
+              title="访问电子书所在频道位置">Java 报表软件博客文章</a></li>
+            <li><span title="下载次数">45</span> <a
+              href="http://www.iteye.com/blogs/pdfs/10329?channel_home=true"
+              title="访问电子书所在频道位置">陈华的博客文章</a></li>
+            <li><span title="下载次数">35</span> <a
+              href="http://www.iteye.com/blogs/pdfs/10982?channel_home=true"
+              title="访问电子书所在频道位置">artDialog文档手册及常见问题</a></li>
+            <li><span title="下载次数">25</span> <a
+              href="http://www.iteye.com/blogs/pdfs/10471?channel_home=true"
+              title="访问电子书所在频道位置">Response开发技术经典案例</a></li>
+            <li><span title="下载次数">24</span> <a
+              href="http://www.iteye.com/blogs/pdfs/10575?channel_home=true"
+              title="访问电子书所在频道位置">高军威的博客文章</a></li>
+            <li><span title="下载次数">24</span> <a
+              href="http://www.iteye.com/blogs/pdfs/10679?channel_home=true"
+              title="访问电子书所在频道位置">accpxudajian的博客文章</a></li>
+            <li><span title="下载次数">23</span> <a
+              href="http://www.iteye.com/blogs/pdfs/9854?channel_home=true"
+              title="访问电子书所在频道位置">yunlong167167的博客文章</a></li>
+            <li><span title="下载次数">22</span> <a
+              href="http://www.iteye.com/blogs/pdfs/10624?channel_home=true"
+              title="访问电子书所在频道位置">weiwei-0926的博客文章</a></li>
+          </ul>
+          <a href="http://www.iteye.com/blogs/pdf"
+            style="padding-left: 130px;">&gt;&gt;浏览更多下载</a>
+        </div>
+
+        <script type="text/javascript">
+            function show_hot(type) {
+              ["month", "all"].each(function(t){
+                  $('pdf_hot_' + t).hide();
+                  $('pdf_hot_tab_' + t).removeClassName("selected");
+                  });
+              $('pdf_hot_' + type).show();
+              $('pdf_hot_tab_' + type).addClassName("selected");
+            }
+        </script>
+
+        <div>
+          <h3>相关资讯</h3>
+          <ul>
+            <li><a href="http://www.iteye.com/news/3286" target="_blank">CSS框架学习教程</a></li>
+            <li><a href="http://www.iteye.com/news/3094" target="_blank">推荐CSS框架</a></li>
+            <li><a href="http://www.iteye.com/news/6053-object-oriented-css---the-css-object-oriented"
+              target="_blank">Object Oriented CSS -面向对象的CSS</a></li>
+            <li><a href="http://www.iteye.com/news/74" target="_blank">推荐CSS工具资源</a></li>
+            <li><a href="http://www.iteye.com/news/9193-css-text-rotation"
+              target="_blank">使用CSS旋转文字</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>相关讨论</h3>
+          <ul>
+            <li><a href="http://www.iteye.com/topic/322008"
+              target="_blank">css框架</a></li>
+            <li><a href="http://www.iteye.com/topic/1038611"
+              target="_blank">引入CSS</a></li>
+            <li><a href="http://www.iteye.com/topic/512191"
+              target="_blank">css命名规范</a></li>
+            <li><a href="http://www.iteye.com/topic/565891"
+              target="_blank">CSS/CSS教程/CSS中文手册</a></li>
+            <li><a href="http://www.iteye.com/topic/633641"
+              target="_blank">css sprite最佳实践</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="site_nav">
+        <ul>
+          <li><a href="http://www.iteye.com/index/service">广告服务</a></li>
+          <li><a href="http://webmaster.iteye.com/">ITeye黑板报</a></li>
+          <li><a href="http://www.iteye.com/index/contactus">联系我们</a></li>
+          <li class="last"><a
+            href="http://www.iteye.com/index/friend_links">友情链接</a></li>
+        </ul>
+      </div>
+      <div id="copyright">
+        © 2003-2012 ITeye.com. [ <a href="http://www.miibeian.gov.cn/">京ICP证110151号</a>
+        京公网安备110105010620 ]<br> 百联优力(北京)投资有限公司 版权所有<br>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    document.write("<img src='http://stat.iteye.com/?url="+ encodeURIComponent(document.location.href) + "&referrer=" + encodeURIComponent(document.referrer) + "&user_id=550404' width='0' height='0' />");
+  </script>
+  <img src="./CSS热门博客列表 - Web前端 ITeye博客频道 - ITeye.com_files/saved_resource" width="0" height="0">
+

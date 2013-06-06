@@ -1,0 +1,5 @@
+
+function getBlogType() {
+
+	return "mobile";
+}

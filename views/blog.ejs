@@ -1,0 +1,36 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CSS热门博客列表 - Web前端 ITeye博客频道 - ITeye.com</title>
+<meta name="description" content="CSS Web前端近期最受欢迎的博客，ITeye博客频道">
+<meta name="keywords" content="CSS,Web前端,博客">
+
+<body>
+
+	<div id="page">
+    <div id="header"></div>
+    <div id="content" class="clearfix">
+      <div id="main">
+        <div id="side">
+          <div class="nav_side">
+            <ul>
+				<%- partial('blogs_type', {blogstype:blogstype}) %>
+            </ul>
+          </div>
+          <%- partial('blogs', {blogs:blogs}) %>
+       	</div>
+       </div>
+    </div>
+    </div>
+					
+
+
+					
+
+
+
+</body>
+</html>
+

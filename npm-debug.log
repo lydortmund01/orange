@@ -1,0 +1,401 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'socket' ]
+2 info using npm@1.2.3
+3 info using node@v0.8.18
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Program Files\nodejs\microblog3\package.json
+6 warn package.json microblog@0.0.1 No README.md file found!
+7 verbose read json C:\Program Files\nodejs\microblog3\node_modules\connect-flash\package.json
+8 verbose read json C:\Program Files\nodejs\microblog3\node_modules\connect-mongo\package.json
+9 verbose read json C:\Program Files\nodejs\microblog3\node_modules\crypto\package.json
+10 verbose read json C:\Program Files\nodejs\microblog3\node_modules\ejs\package.json
+11 verbose read json C:\Program Files\nodejs\microblog3\node_modules\express\package.json
+12 verbose read json C:\Program Files\nodejs\microblog3\node_modules\express-partials\package.json
+13 verbose read json C:\Program Files\nodejs\microblog3\node_modules\jade\package.json
+14 verbose read json C:\Program Files\nodejs\microblog3\node_modules\mongodb\package.json
+15 verbose read json C:\Program Files\nodejs\microblog3\node_modules\supervisor\package.json
+16 warn package.json connect-mongo@0.1.9 No README.md file found!
+17 warn package.json connect-flash@0.1.0 No README.md file found!
+18 warn package.json mongodb@1.1.0 No README.md file found!
+19 verbose from cache C:\Program Files\nodejs\microblog3\package.json
+20 verbose readDependencies using package.json deps
+21 verbose cache add [ 'socket', null ]
+22 verbose cache add name=undefined spec="socket" args=["socket",null]
+23 verbose parsed url { pathname: 'socket', path: 'socket', href: 'socket' }
+24 silly lockFile 897d2105-socket socket
+25 verbose lock socket C:\Users\Think\AppData\Roaming\npm-cache\897d2105-socket.lock
+26 silly lockFile 897d2105-socket socket
+27 verbose addNamed [ 'socket', '' ]
+28 verbose addNamed [ null, '' ]
+29 silly lockFile 45707214-socket socket@
+30 verbose lock socket@ C:\Users\Think\AppData\Roaming\npm-cache\45707214-socket.lock
+31 silly addNameRange { name: 'socket', range: '', hasData: false }
+32 verbose url raw socket
+33 verbose url resolving [ 'https://registry.npmjs.org/', './socket' ]
+34 verbose url resolved https://registry.npmjs.org/socket
+35 info trying registry request attempt 1 at 08:42:47
+36 http GET https://registry.npmjs.org/socket
+37 http 200 https://registry.npmjs.org/socket
+38 silly registry.get cb [ 200,
+38 silly registry.get   { vary: 'Accept',
+38 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+38 silly registry.get     etag: '"1MK276CPHUM74HE3AXFE38331"',
+38 silly registry.get     date: 'Mon, 03 Jun 2013 00:42:52 GMT',
+38 silly registry.get     'content-type': 'application/json',
+38 silly registry.get     'content-length': '1515' } ]
+39 silly addNameRange number 2 { name: 'socket', range: '', hasData: true }
+40 silly addNameRange versions [ 'socket', [ '0.0.1' ] ]
+41 verbose addNamed [ 'socket', '0.0.1' ]
+42 verbose addNamed [ '0.0.1', '0.0.1' ]
+43 silly lockFile ccbb8590-socket-0-0-1 socket@0.0.1
+44 verbose lock socket@0.0.1 C:\Users\Think\AppData\Roaming\npm-cache\ccbb8590-socket-0-0-1.lock
+45 silly lockFile 22226b48-pmjs-org-socket-socket-0-0-1-tgz https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+46 verbose lock https://registry.npmjs.org/socket/-/socket-0.0.1.tgz C:\Users\Think\AppData\Roaming\npm-cache\22226b48-pmjs-org-socket-socket-0-0-1-tgz.lock
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket/-/socket-0.0.1.tgz',
+47 verbose addRemoteTarball   '29ac6549f15a65b19f3444a4178d537a8c161a8b' ]
+48 info retry fetch attempt 1 at 08:42:52
+49 verbose fetch to= C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\tmp.tgz
+50 http GET https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+51 http 200 https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+52 silly shasum updated bytes 5556
+53 info shasum 29ac6549f15a65b19f3444a4178d537a8c161a8b
+53 info shasum C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\tmp.tgz
+54 verbose tar unpack C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\tmp.tgz
+55 silly lockFile 3b92a0ab-72086-0-7905423750635237-package C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\package
+56 verbose lock C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\package C:\Users\Think\AppData\Roaming\npm-cache\3b92a0ab-72086-0-7905423750635237-package.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry examples/
+59 silly gunzTarPerm extractEntry examples/echo-server.js
+60 silly gunzTarPerm extractEntry examples/simple-test.js
+61 silly gunzTarPerm extractEntry examples/simple-time-server.js
+62 silly gunzTarPerm extractEntry index.js
+63 silly gunzTarPerm extractEntry lib/
+64 silly gunzTarPerm extractEntry lib/index.js
+65 silly gunzTarPerm extractEntry lib/middleware/
+66 silly gunzTarPerm extractEntry lib/middleware/echo.js
+67 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+68 silly gunzTarPerm extractEntry lib/middleware/json.js
+69 silly gunzTarPerm extractEntry lib/middleware/profiler.js
+70 silly gunzTarPerm extractEntry lib/proto.js
+71 silly gunzTarPerm extractEntry lib/utils.js
+72 silly gunzTarPerm extractEntry nbproject/
+73 silly gunzTarPerm extractEntry nbproject/private/
+74 silly gunzTarPerm extractEntry nbproject/private/private.properties
+75 silly gunzTarPerm extractEntry nbproject/project.properties
+76 silly gunzTarPerm extractEntry nbproject/project.xml
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry scripts/
+79 silly gunzTarPerm extractEntry scripts/lint
+80 verbose read json C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\package\package.json
+81 warn package.json socket@0.0.1 No README.md file found!
+82 silly lockFile 3b92a0ab-72086-0-7905423750635237-package C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\package
+83 verbose from cache C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\package\package.json
+84 verbose tar pack [ 'C:\\Users\\Think\\AppData\\Roaming\\npm-cache\\socket\\0.0.1\\package.tgz',
+84 verbose tar pack   'C:\\Users\\Think\\AppData\\Local\\Temp\\npm-11456\\1370220172086-0.7905423750635237\\package' ]
+85 verbose tarball C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz
+86 verbose folder C:\Users\Think\AppData\Local\Temp\npm-11456\1370220172086-0.7905423750635237\package
+87 silly lockFile 4bd3bfa7-m-cache-socket-0-0-1-package-tgz C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz
+88 verbose lock C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz C:\Users\Think\AppData\Roaming\npm-cache\4bd3bfa7-m-cache-socket-0-0-1-package-tgz.lock
+89 silly lockFile 4bd3bfa7-m-cache-socket-0-0-1-package-tgz C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz
+90 silly lockFile 731c29f4-g-npm-cache-socket-0-0-1-package C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package
+91 verbose lock C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package C:\Users\Think\AppData\Roaming\npm-cache\731c29f4-g-npm-cache-socket-0-0-1-package.lock
+92 silly lockFile 731c29f4-g-npm-cache-socket-0-0-1-package C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package
+93 verbose tar unpack C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz
+94 silly lockFile 731c29f4-g-npm-cache-socket-0-0-1-package C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package
+95 verbose lock C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package C:\Users\Think\AppData\Roaming\npm-cache\731c29f4-g-npm-cache-socket-0-0-1-package.lock
+96 silly gunzTarPerm modes [ '755', '644' ]
+97 silly gunzTarPerm extractEntry package.json
+98 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+99 silly gunzTarPerm extractEntry index.js
+100 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+101 silly gunzTarPerm extractEntry examples/echo-server.js
+102 silly gunzTarPerm modified mode [ 'examples/echo-server.js', 438, 420 ]
+103 silly gunzTarPerm extractEntry examples/simple-test.js
+104 silly gunzTarPerm modified mode [ 'examples/simple-test.js', 438, 420 ]
+105 silly gunzTarPerm extractEntry examples/simple-time-server.js
+106 silly gunzTarPerm modified mode [ 'examples/simple-time-server.js', 438, 420 ]
+107 silly gunzTarPerm extractEntry lib/index.js
+108 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+109 silly gunzTarPerm extractEntry lib/proto.js
+110 silly gunzTarPerm modified mode [ 'lib/proto.js', 438, 420 ]
+111 silly gunzTarPerm extractEntry lib/utils.js
+112 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+113 silly gunzTarPerm extractEntry lib/middleware/echo.js
+114 silly gunzTarPerm modified mode [ 'lib/middleware/echo.js', 438, 420 ]
+115 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+116 silly gunzTarPerm modified mode [ 'lib/middleware/errorHandler.js', 438, 420 ]
+117 silly gunzTarPerm extractEntry lib/middleware/json.js
+118 silly gunzTarPerm modified mode [ 'lib/middleware/json.js', 438, 420 ]
+119 silly gunzTarPerm extractEntry lib/middleware/profiler.js
+120 silly gunzTarPerm modified mode [ 'lib/middleware/profiler.js', 438, 420 ]
+121 silly gunzTarPerm extractEntry nbproject/private/private.properties
+122 silly gunzTarPerm modified mode [ 'nbproject/private/private.properties', 438, 420 ]
+123 silly gunzTarPerm extractEntry nbproject/project.properties
+124 silly gunzTarPerm modified mode [ 'nbproject/project.properties', 438, 420 ]
+125 silly gunzTarPerm extractEntry nbproject/project.xml
+126 silly gunzTarPerm modified mode [ 'nbproject/project.xml', 438, 420 ]
+127 silly gunzTarPerm extractEntry scripts/lint
+128 silly gunzTarPerm modified mode [ 'scripts/lint', 438, 420 ]
+129 verbose read json C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package\package.json
+130 silly lockFile 731c29f4-g-npm-cache-socket-0-0-1-package C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package
+131 silly shasum updated bytes 5350
+132 info shasum 200625db099accd7ad140fabb25cd01e1fcac4c2
+132 info shasum C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz
+133 verbose from cache C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package\package.json
+134 verbose chmod C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz 644
+135 silly chown skipping for windows C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz
+136 silly lockFile 22226b48-pmjs-org-socket-socket-0-0-1-tgz https://registry.npmjs.org/socket/-/socket-0.0.1.tgz
+137 silly lockFile ccbb8590-socket-0-0-1 socket@0.0.1
+138 silly lockFile 45707214-socket socket@
+139 silly resolved [ { name: 'socket',
+139 silly resolved     description: 'Socket is a connect clone for simple socket based applications',
+139 silly resolved     version: '0.0.1',
+139 silly resolved     author:
+139 silly resolved      { name: 'Richard S Allinson',
+139 silly resolved        email: 'rsa@mounitainmansoftware.com' },
+139 silly resolved     main: 'index',
+139 silly resolved     engines: { node: '>= 0.6.0 < 0.7.0' },
+139 silly resolved     dependencies: { microtime: '=0.2.0' },
+139 silly resolved     repository: { type: 'git', url: 'https://github.com/capecodehq/socket.git' },
+139 silly resolved     license: 'MIT',
+139 silly resolved     _id: 'socket@0.0.1',
+139 silly resolved     readme: 'ERROR: No README.md file found!',
+139 silly resolved     dist: { shasum: '200625db099accd7ad140fabb25cd01e1fcac4c2' },
+139 silly resolved     _from: 'socket@',
+139 silly resolved     _resolved: 'https://registry.npmjs.org/socket/-/socket-0.0.1.tgz' } ]
+140 info install socket@0.0.1 into C:\Program Files\nodejs\microblog3
+141 info installOne socket@0.0.1
+142 warn engine socket@0.0.1: wanted: {"node":">= 0.6.0 < 0.7.0"} (current: {"node":"v0.8.18","npm":"1.2.3"})
+143 verbose from cache C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package\package.json
+144 info C:\Program Files\nodejs\microblog3\node_modules\socket unbuild
+145 verbose read json C:\Program Files\nodejs\microblog3\node_modules\socket\package.json
+146 verbose tar unpack C:\Users\Think\AppData\Roaming\npm-cache\socket\0.0.1\package.tgz
+147 silly lockFile 53c2791f-s-microblog3-node-modules-socket C:\Program Files\nodejs\microblog3\node_modules\socket
+148 verbose lock C:\Program Files\nodejs\microblog3\node_modules\socket C:\Users\Think\AppData\Roaming\npm-cache\53c2791f-s-microblog3-node-modules-socket.lock
+149 silly gunzTarPerm modes [ '755', '644' ]
+150 silly gunzTarPerm extractEntry package.json
+151 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+152 silly gunzTarPerm extractEntry index.js
+153 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry examples/echo-server.js
+155 silly gunzTarPerm modified mode [ 'examples/echo-server.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry examples/simple-test.js
+157 silly gunzTarPerm modified mode [ 'examples/simple-test.js', 438, 420 ]
+158 silly gunzTarPerm extractEntry examples/simple-time-server.js
+159 silly gunzTarPerm modified mode [ 'examples/simple-time-server.js', 438, 420 ]
+160 silly gunzTarPerm extractEntry lib/index.js
+161 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+162 silly gunzTarPerm extractEntry lib/proto.js
+163 silly gunzTarPerm modified mode [ 'lib/proto.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry lib/utils.js
+165 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+166 silly gunzTarPerm extractEntry lib/middleware/echo.js
+167 silly gunzTarPerm modified mode [ 'lib/middleware/echo.js', 438, 420 ]
+168 silly gunzTarPerm extractEntry lib/middleware/errorHandler.js
+169 silly gunzTarPerm modified mode [ 'lib/middleware/errorHandler.js', 438, 420 ]
+170 silly gunzTarPerm extractEntry lib/middleware/json.js
+171 silly gunzTarPerm modified mode [ 'lib/middleware/json.js', 438, 420 ]
+172 silly gunzTarPerm extractEntry lib/middleware/profiler.js
+173 silly gunzTarPerm modified mode [ 'lib/middleware/profiler.js', 438, 420 ]
+174 silly gunzTarPerm extractEntry nbproject/private/private.properties
+175 silly gunzTarPerm modified mode [ 'nbproject/private/private.properties', 438, 420 ]
+176 silly gunzTarPerm extractEntry nbproject/project.properties
+177 silly gunzTarPerm modified mode [ 'nbproject/project.properties', 438, 420 ]
+178 silly gunzTarPerm extractEntry nbproject/project.xml
+179 silly gunzTarPerm modified mode [ 'nbproject/project.xml', 438, 420 ]
+180 silly gunzTarPerm extractEntry scripts/lint
+181 silly gunzTarPerm modified mode [ 'scripts/lint', 438, 420 ]
+182 verbose read json C:\Program Files\nodejs\microblog3\node_modules\socket\package.json
+183 silly lockFile 53c2791f-s-microblog3-node-modules-socket C:\Program Files\nodejs\microblog3\node_modules\socket
+184 info preinstall socket@0.0.1
+185 verbose from cache C:\Program Files\nodejs\microblog3\node_modules\socket\package.json
+186 verbose readDependencies using package.json deps
+187 verbose from cache C:\Program Files\nodejs\microblog3\node_modules\socket\package.json
+188 verbose readDependencies using package.json deps
+189 verbose cache add [ 'microtime@=0.2.0', null ]
+190 verbose cache add name=undefined spec="microtime@=0.2.0" args=["microtime@=0.2.0",null]
+191 verbose parsed url { pathname: 'microtime@=0.2.0',
+191 verbose parsed url   path: 'microtime@=0.2.0',
+191 verbose parsed url   href: 'microtime@=0.2.0' }
+192 verbose cache add name="microtime" spec="=0.2.0" args=["microtime","=0.2.0"]
+193 verbose parsed url { pathname: '=0.2.0', path: '=0.2.0', href: '=0.2.0' }
+194 verbose addNamed [ 'microtime', '=0.2.0' ]
+195 verbose addNamed [ '0.2.0', '=0.2.0' ]
+196 silly lockFile 2e0a3709-microtime-0-2-0 microtime@=0.2.0
+197 verbose lock microtime@=0.2.0 C:\Users\Think\AppData\Roaming\npm-cache\2e0a3709-microtime-0-2-0.lock
+198 verbose url raw microtime/0.2.0
+199 verbose url resolving [ 'https://registry.npmjs.org/', './microtime/0.2.0' ]
+200 verbose url resolved https://registry.npmjs.org/microtime/0.2.0
+201 info trying registry request attempt 1 at 08:43:11
+202 http GET https://registry.npmjs.org/microtime/0.2.0
+203 http 200 https://registry.npmjs.org/microtime/0.2.0
+204 silly registry.get cb [ 200,
+204 silly registry.get   { vary: 'Accept',
+204 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+204 silly registry.get     etag: '"7CUJV8LB9DLT451I98QNT7VQQ"',
+204 silly registry.get     date: 'Mon, 03 Jun 2013 00:43:14 GMT',
+204 silly registry.get     'content-type': 'application/json',
+204 silly registry.get     'content-length': '842' } ]
+205 silly lockFile 1672971e-rg-microtime-microtime-0-2-0-tgz https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz
+206 verbose lock https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz C:\Users\Think\AppData\Roaming\npm-cache\1672971e-rg-microtime-microtime-0-2-0-tgz.lock
+207 verbose addRemoteTarball [ 'https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz',
+207 verbose addRemoteTarball   '45ee5cb061f9948a3ade221e620d5117a8a2bdb4' ]
+208 info retry fetch attempt 1 at 08:43:13
+209 verbose fetch to= C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\tmp.tgz
+210 http GET https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz
+211 http 200 https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz
+212 silly shasum updated bytes 10240
+213 info shasum 45ee5cb061f9948a3ade221e620d5117a8a2bdb4
+213 info shasum C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\tmp.tgz
+214 verbose tar unpack C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\tmp.tgz
+215 silly lockFile 89758971-3994-0-31032175407744944-package C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\package
+216 verbose lock C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\package C:\Users\Think\AppData\Roaming\npm-cache\89758971-3994-0-31032175407744944-package.lock
+217 silly gunzTarPerm modes [ '755', '644' ]
+218 silly gunzTarPerm extractEntry index.js
+219 silly gunzTarPerm extractEntry LICENSE
+220 silly gunzTarPerm extractEntry package.json
+221 silly gunzTarPerm extractEntry README.md
+222 silly gunzTarPerm extractEntry test.js
+223 silly gunzTarPerm extractEntry wscript
+224 silly gunzTarPerm extractEntry src/microtime.cc
+225 verbose read json C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\package\package.json
+226 silly lockFile 89758971-3994-0-31032175407744944-package C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\package
+227 verbose from cache C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\package\package.json
+228 verbose tar pack [ 'C:\\Users\\Think\\AppData\\Roaming\\npm-cache\\microtime\\0.2.0\\package.tgz',
+228 verbose tar pack   'C:\\Users\\Think\\AppData\\Local\\Temp\\npm-11456\\1370220193994-0.31032175407744944\\package' ]
+229 verbose tarball C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz
+230 verbose folder C:\Users\Think\AppData\Local\Temp\npm-11456\1370220193994-0.31032175407744944\package
+231 silly lockFile 4b3ced44-ache-microtime-0-2-0-package-tgz C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz
+232 verbose lock C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz C:\Users\Think\AppData\Roaming\npm-cache\4b3ced44-ache-microtime-0-2-0-package-tgz.lock
+233 silly lockFile 4b3ced44-ache-microtime-0-2-0-package-tgz C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz
+234 silly lockFile a8d78ad5-pm-cache-microtime-0-2-0-package C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package
+235 verbose lock C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package C:\Users\Think\AppData\Roaming\npm-cache\a8d78ad5-pm-cache-microtime-0-2-0-package.lock
+236 silly lockFile a8d78ad5-pm-cache-microtime-0-2-0-package C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package
+237 verbose tar unpack C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz
+238 silly lockFile a8d78ad5-pm-cache-microtime-0-2-0-package C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package
+239 verbose lock C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package C:\Users\Think\AppData\Roaming\npm-cache\a8d78ad5-pm-cache-microtime-0-2-0-package.lock
+240 silly gunzTarPerm modes [ '755', '644' ]
+241 silly gunzTarPerm extractEntry package.json
+242 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+243 silly gunzTarPerm extractEntry README.md
+244 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+245 silly gunzTarPerm extractEntry LICENSE
+246 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+247 silly gunzTarPerm extractEntry index.js
+248 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+249 silly gunzTarPerm extractEntry test.js
+250 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+251 silly gunzTarPerm extractEntry src/microtime.cc
+252 silly gunzTarPerm modified mode [ 'src/microtime.cc', 438, 420 ]
+253 silly gunzTarPerm extractEntry wscript
+254 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+255 verbose read json C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package\package.json
+256 silly lockFile a8d78ad5-pm-cache-microtime-0-2-0-package C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package
+257 silly shasum updated bytes 2907
+258 info shasum 78abc70166f26e64800405cdf6b46eb41fa3f070
+258 info shasum C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz
+259 verbose from cache C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package\package.json
+260 verbose chmod C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz 644
+261 silly chown skipping for windows C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz
+262 silly lockFile 1672971e-rg-microtime-microtime-0-2-0-tgz https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz
+263 silly lockFile 2e0a3709-microtime-0-2-0 microtime@=0.2.0
+264 silly resolved [ { name: 'microtime',
+264 silly resolved     version: '0.2.0',
+264 silly resolved     description: 'Get the current time in microseconds',
+264 silly resolved     author:
+264 silly resolved      { name: 'Wade Simmons',
+264 silly resolved        email: 'wade@wades.im',
+264 silly resolved        url: 'http://wades.im/mons' },
+264 silly resolved     homepage: 'https://github.com/wadey/node-microtime',
+264 silly resolved     repository:
+264 silly resolved      { type: 'git',
+264 silly resolved        url: 'git://github.com/wadey/node-microtime.git' },
+264 silly resolved     main: './index',
+264 silly resolved     engines: { node: '>= 0.2.0' },
+264 silly resolved     scripts: { install: 'node-waf configure build', test: 'node test.js' },
+264 silly resolved     readme: '# node-microtime\n\nDate.now() will only give you accuracy in milliseconds. This module calls\n`gettimeofday(2)` to get the time in microseconds and provides it in a few\ndifferent formats. The same warning from that function applies:\n_The resolution of the system clock is hardware dependent, and the time may\nbe updated continuously or in ``ticks.\'\'_\n\n# Installation\n\n    npm install microtime\n\n# Usage\n\n### microtime.now()\n\nGet the current time in microseconds as an integer. Since JavaScript can only\nrepresent integer values accurately up to `Math.pow(2, 53)`, this value will\nbe accurate up to _Tue, 05 Jun 2255 23:47:34 GMT_.\n\n### microtime.nowDouble()\n\nGet the current time in seconds as a floating point number with microsecond\naccuracy (similar to `time.time()` in Python and `Time.now.to_f` in Ruby).\n\n### microtime.nowStruct()\n\nGet the current time and return as a list with seconds and microseconds (matching the return value of `gettimeofday(2)`).\n\n# Example\n\n    > var microtime = require(\'microtime\')\n    > microtime.now()\n    1297448895297028\n    > microtime.nowDouble()\n    1297448897.600976\n    > microtime.nowStruct()\n    [ 1297448902, 753875 ]\n\n## Estimating clock resolution\n\nStarting with version 0.1.3, there is a test script that tries to guess the clock resolution. You can run it with `npm test microtime`. Example output:\n\n    microtime.now() = 1298960083489806\n    microtime.nowDouble() = 1298960083.511521\n    microtime.nowStruct() = [ 1298960083, 511587 ]\n\n    Guessing clock resolution...\n    Clock resolution observed: 1us\n\n## Tested on\n\n    Node.js 0.2.6\n      - OS X 10.6.6\n      - Ubuntu 10.04\n\n    Node.js 0.4.1\n      - OS X 10.6.6\n      - Windows 7 64bit (Cygwin) *\n\n## Warning for Cygwin users\n\nIt appears that Cygwin only implements `gettimeofday(2)` with [millisecond accuracy](http://old.nabble.com/gettimeofday---millisecond-accuracy-p21085475.html).\n',
+264 silly resolved     readmeFilename: 'README.md',
+264 silly resolved     _id: 'microtime@0.2.0',
+264 silly resolved     dist: { shasum: '78abc70166f26e64800405cdf6b46eb41fa3f070' },
+264 silly resolved     _from: 'microtime@=0.2.0',
+264 silly resolved     _resolved: 'https://registry.npmjs.org/microtime/-/microtime-0.2.0.tgz' } ]
+265 info install microtime@0.2.0 into C:\Program Files\nodejs\microblog3\node_modules\socket
+266 info installOne microtime@0.2.0
+267 verbose from cache C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package\package.json
+268 info C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime unbuild
+269 verbose read json C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime\package.json
+270 verbose tar unpack C:\Users\Think\AppData\Roaming\npm-cache\microtime\0.2.0\package.tgz
+271 silly lockFile 46522921-es-socket-node-modules-microtime C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime
+272 verbose lock C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime C:\Users\Think\AppData\Roaming\npm-cache\46522921-es-socket-node-modules-microtime.lock
+273 silly gunzTarPerm modes [ '755', '644' ]
+274 silly gunzTarPerm extractEntry package.json
+275 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+276 silly gunzTarPerm extractEntry README.md
+277 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+278 silly gunzTarPerm extractEntry LICENSE
+279 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+280 silly gunzTarPerm extractEntry index.js
+281 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry test.js
+283 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+284 silly gunzTarPerm extractEntry src/microtime.cc
+285 silly gunzTarPerm modified mode [ 'src/microtime.cc', 438, 420 ]
+286 silly gunzTarPerm extractEntry wscript
+287 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+288 verbose read json C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime\package.json
+289 silly lockFile 46522921-es-socket-node-modules-microtime C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime
+290 info preinstall microtime@0.2.0
+291 verbose from cache C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime\package.json
+292 verbose readDependencies using package.json deps
+293 verbose from cache C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime\package.json
+294 verbose readDependencies using package.json deps
+295 silly resolved []
+296 verbose about to build C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime
+297 info build C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime
+298 verbose from cache C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime\package.json
+299 verbose linkStuff [ false,
+299 verbose linkStuff   false,
+299 verbose linkStuff   false,
+299 verbose linkStuff   'C:\\Program Files\\nodejs\\microblog3\\node_modules\\socket\\node_modules' ]
+300 info linkStuff microtime@0.2.0
+301 verbose linkBins microtime@0.2.0
+302 verbose linkMans microtime@0.2.0
+303 verbose rebuildBundles microtime@0.2.0
+304 info install microtime@0.2.0
+305 verbose unsafe-perm in lifecycle true
+306 silly exec cmd "/c" "node-waf configure build"
+307 silly cmd,/c,node-waf configure build,C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime spawning
+308 info microtime@0.2.0 Failed to exec install script
+309 info C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime unbuild
+310 verbose from cache C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules\microtime\package.json
+311 info preuninstall microtime@0.2.0
+312 info uninstall microtime@0.2.0
+313 verbose false,C:\Program Files\nodejs\microblog3\node_modules,C:\Program Files\nodejs\microblog3\node_modules\socket\node_modules unbuild microtime@0.2.0
+314 info postuninstall microtime@0.2.0
+315 verbose about to build C:\Program Files\nodejs\microblog3\node_modules\socket
+316 info C:\Program Files\nodejs\microblog3\node_modules\socket unbuild
+317 verbose from cache C:\Program Files\nodejs\microblog3\node_modules\socket\package.json
+318 info preuninstall socket@0.0.1
+319 info uninstall socket@0.0.1
+320 verbose true,C:\Program Files\nodejs\microblog3\node_modules,C:\Program Files\nodejs\microblog3\node_modules unbuild socket@0.0.1
+321 info postuninstall socket@0.0.1
+322 error microtime@0.2.0 install: `node-waf configure build`
+322 error `cmd "/c" "node-waf configure build"` failed with 1
+323 error Failed at the microtime@0.2.0 install script.
+323 error This is most likely a problem with the microtime package,
+323 error not with npm itself.
+323 error Tell the author that this fails on your system:
+323 error     node-waf configure build
+323 error You can get their info via:
+323 error     npm owner ls microtime
+323 error There is likely additional logging output above.
+324 error System Windows_NT 6.1.7601
+325 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "socket"
+326 error cwd C:\Program Files\nodejs\microblog3
+327 error node -v v0.8.18
+328 error npm -v 1.2.3
+329 error code ELIFECYCLE
+330 verbose exit [ 1, true ]
