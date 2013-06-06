@@ -1,0 +1,61 @@
+8
+
+dir
+2988
+svn://jp2.51xiaop.com/product/tmp/DeveloperWebsite/WebContent/js/poshytip-1.0/src
+svn://jp2.51xiaop.com/product
+
+
+
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+
+svn:special svn:externals svn:needs-lock
+
+tip-yellowsimple
+dir
+
+tip-yellow
+dir
+
+tip-skyblue
+dir
+
+jquery.poshytip.js
+file
+
+
+
+
+2013-05-07T04:42:03.353260Z
+676ff25909033b6b59d49bb27f4351f3
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+tip-green
+dir
+
+jquery.poshytip.min.js
+file
+
+
+
+
+2013-05-07T04:42:03.354260Z
+3fd4331e984e9a84f907c684a3d9c1cc
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+tip-twitter
+dir
+
+tip-violet
+dir
+
+tip-darkgray
+dir
+

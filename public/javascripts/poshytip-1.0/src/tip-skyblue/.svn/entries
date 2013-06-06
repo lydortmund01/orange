@@ -1,0 +1,54 @@
+8
+
+dir
+2988
+svn://jp2.51xiaop.com/product/tmp/DeveloperWebsite/WebContent/js/poshytip-1.0/src/tip-skyblue
+svn://jp2.51xiaop.com/product
+
+
+
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+
+svn:special svn:externals svn:needs-lock
+
+tip-skyblue.css
+file
+
+
+
+
+2013-05-07T04:42:03.361761Z
+1e4799d71d64b511bf7d456abcf1fcd8
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+tip-skyblue_arrows.png
+file
+
+
+
+
+2013-05-07T04:42:03.363761Z
+eae7f6b44496ab5e5bb3f006b0b721fc
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+has-props
+
+tip-skyblue.png
+file
+
+
+
+
+2013-05-07T04:42:03.362261Z
+95de1ecc46f414645594a9b2013b3b7d
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+has-props
+

@@ -1,0 +1,54 @@
+8
+
+dir
+2988
+svn://jp2.51xiaop.com/product/tmp/DeveloperWebsite/WebContent/js/poshytip-1.0/src/tip-yellow
+svn://jp2.51xiaop.com/product
+
+
+
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+
+svn:special svn:externals svn:needs-lock
+
+tip-yellow_arrows.png
+file
+
+
+
+
+2013-05-07T04:42:03.372762Z
+6bfad159d5d8b6b3420527d41736cd1c
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+has-props
+
+tip-yellow.png
+file
+
+
+
+
+2013-05-07T04:42:03.371762Z
+e088f24cd7b6e954a1c444d7a58ce47f
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+has-props
+
+tip-yellow.css
+file
+
+
+
+
+2013-05-07T04:42:03.370762Z
+cfaeb70d1c53a423b9471a4d4008ecae
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+

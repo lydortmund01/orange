@@ -1,0 +1,49 @@
+8
+
+dir
+2988
+svn://jp2.51xiaop.com/product/tmp/DeveloperWebsite/WebContent/js/prettyPhoto
+svn://jp2.51xiaop.com/product
+
+
+
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+
+svn:special svn:externals svn:needs-lock
+
+images
+dir
+
+css
+dir
+
+index.html
+file
+
+
+
+
+2013-05-07T04:42:03.443771Z
+905b4596d818f1cee75cc8ee879ffb7f
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+js
+dir
+
+README
+file
+
+
+
+
+2013-05-07T04:42:03.449272Z
+7e42704cdcd0f9ce0bac346e4247a5d4
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+

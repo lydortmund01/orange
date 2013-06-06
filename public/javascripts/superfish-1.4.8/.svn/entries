@@ -1,0 +1,49 @@
+8
+
+dir
+2988
+svn://jp2.51xiaop.com/product/tmp/DeveloperWebsite/WebContent/js/superfish-1.4.8
+svn://jp2.51xiaop.com/product
+
+
+
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+
+svn:special svn:externals svn:needs-lock
+
+images
+dir
+
+changelog.txt
+file
+
+
+
+
+2013-05-07T04:42:03.452773Z
+2d1bf2a04c0bdc7746d5da453d97708c
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
+css
+dir
+
+js
+dir
+
+example.html
+file
+
+
+
+
+2013-05-07T04:42:03.459773Z
+b710e9d02b614d48cfe3866f8d89a547
+2013-05-07T04:48:14.203632Z
+2988
+liuyu
+
